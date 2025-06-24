@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
+import { useNavigation } from '@react-navigation/native';
+import { useEffect, useState } from 'react';
+import { Alert, Button, StyleSheet, Text, TextInput, View } from 'react-native';
+import { productos, subproductos } from '../constants/data';
 import Factura from '../models/Factura';
 import { guardarFacturaLocal } from '../storage/facturaStorage';
-import { productos, subproductos } from '../constants/data';
-import { useNavigation } from '@react-navigation/native';
 
 export default function RegistroFacturaScreen() {
 
@@ -22,7 +22,10 @@ export default function RegistroFacturaScreen() {
 
   useEffect(() => {
     if (productoId) {
-      const filtrados = subproductos.filter((s) => s.productoId === productoId);
+
+      console.log(subproductos.length);
+      const filtrados = subproductos.filter((s) => s.productoId === Number(productoId));
+
       setSubproductosFiltrados(filtrados);
       setSubproductoId(null);
     }
@@ -46,13 +49,13 @@ export default function RegistroFacturaScreen() {
     <View style={styles.container}>
 
       <Text style={styles.label}>Identificacion:</Text>
-      <TextInput style={styles.input} value={identificacion} onChangeText={identificacion} />
+      <TextInput style={styles.input} value={identificacion} onChangeText={setIdentificacion} />
 
       <Text style={styles.label}>Cliente:</Text>
-      <TextInput style={styles.input} value={nombre} onChangeText={nombre} />
+      <TextInput style={styles.input} value={nombre} onChangeText={setNombre} />
 
       <Text style={styles.label}>Número:</Text>
-      <TextInput style={styles.input} value={numeroFactura} onChangeText={numeroFactura} />
+      <TextInput style={styles.input} value={numeroFactura} onChangeText={setNumeroFactura} />
 
       <Text style={styles.label}>Fecha:</Text>
       <TextInput style={styles.input} value={fecha} onChangeText={setFecha} placeholder="YYYY-MM-DD" />
@@ -78,9 +81,9 @@ export default function RegistroFacturaScreen() {
           <Picker.Item key={s.id} label={s.nombre} value={s.id} />
         ))}
       </Picker>
-
+      <View style={{ height: 20 }} />
       <Button title="Guardar factura" onPress={guardar} />
-      <Button title="Ver Facturas" onPress={() => navigation.navigate('Listado')} />
+       {/*<Button title="Ver Facturas" onPress={() => navigation.navigate('Listado')} />*/}
 
     </View>
   );

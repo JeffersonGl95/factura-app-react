@@ -1,27 +1,35 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
-import { obtenerFacturasLocales } from '../storage/facturaStorage';
+import { useFocusEffect } from '@react-navigation/native';
+import { useCallback, useState } from 'react';
+import { FlatList, StyleSheet, Text, View } from 'react-native';
 import { subproductos } from '../constants/data';
+import { obtenerFacturasLocales } from '../storage/facturaStorage';
 
 export default function ListaFacturasScreen() {
   const [facturas, setFacturas] = useState([]);
 
-  useEffect(() => {
+  useFocusEffect(
+  useCallback(() => {
+
+    console.log("Entre a cargar las facturas")
     const cargarFacturas = async () => {
       const datos = await obtenerFacturasLocales();
       setFacturas(datos);
     };
     cargarFacturas();
-  }, []);
+  }, [])
+  );
+
+
+
 
   const obtenerNombreSubproducto = (id) => {
-    const sub = subproductos.find((s) => s.id === id);
+    const sub = subproductos.find((s) => s.id === Number(id));
     return sub ? sub.nombre : 'No encontrado';
   };
 
   const renderItem = ({ item }) => (
     <View style={styles.item}>
-      <Text>identificacion: {item.identificacion}</Text>
+      <Text>Identificacion: {item.identificacion}</Text>
       <Text>nombre: {item.nombre}</Text>
       <Text style={styles.numeroFactura}>Factura #{item.numeroFactura}</Text>
       <Text>Fecha: {item.fecha}</Text>
@@ -44,7 +52,7 @@ export default function ListaFacturasScreen() {
         ListEmptyComponent={<Text>No hay facturas registradas aún.</Text>}
       />
 
-      <Button title="Nueva Factura" onPress={() => navigation.navigate('Registro')} />
+      {/*<Button title="Nueva Factura" onPress={() => navigation.navigate('Registrar')} />*/}
     </View>
   );
 }
