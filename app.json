@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "factura-app-mobile",
+    "name": "FacturaApp",
     "slug": "factura-app-mobile",
     "version": "1.0.0",
+    "entryPoint": "./App.js",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "facturaappmobile",
@@ -16,7 +17,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jeffersongl1.facturaappmobile"
     },
     "web": {
       "bundler": "metro",
