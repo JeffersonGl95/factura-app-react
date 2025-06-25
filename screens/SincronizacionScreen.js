@@ -20,7 +20,7 @@ export default function SincronizacionScreen() {
         return;
       }
 
-      const respuesta = await fetch('https://192.168.10.37:7112/api/Factura', {
+      const respuesta = await fetch('http://192.168.10.37:7112/api/Factura', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(noSincronizadas),
