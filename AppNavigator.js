@@ -18,7 +18,7 @@ export default function AppNavigator() {
         <Stack.Screen
           name="Listado"
           component={ListaFacturasScreen}
-          options={{ title: 'Facturas registradas' }}
+          options={{ title: '📄 Facturas Registradas' }}
         />
         <Stack.Screen
           name="RegistroFactura"

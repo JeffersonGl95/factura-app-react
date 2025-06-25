@@ -157,7 +157,7 @@ export default function RegistroFacturaScreen({route,navigation}) {
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
     <ScrollView contentContainerStyle={{ padding: 16 }}>
     <View style={styles.container}>
-      <Text style={styles.titulo}>📄 Registro de Factura</Text>
+      <Text style={styles.titulo}>📄 Registro/Actualización de Factura</Text>
       <Text style={styles.label}>Identificacion:</Text>
       <TextInput style={styles.input} value={identificacion} onChangeText={setIdentificacion} />
 

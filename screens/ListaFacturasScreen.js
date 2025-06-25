@@ -1,6 +1,6 @@
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { useCallback, useState } from 'react';
-import { Button, FlatList, Keyboard, KeyboardAvoidingView, Modal, Platform, ScrollView, StyleSheet, Text, TouchableWithoutFeedback, View } from 'react-native';
+import { Button, FlatList, Keyboard, KeyboardAvoidingView, Modal, Platform, StyleSheet, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { subproductos } from '../constants/data';
 import { guardarFacturas, obtenerFacturasLocales } from '../storage/facturaStorage';
 
@@ -84,31 +84,33 @@ export default function ListaFacturasScreen() {
       style={{ flex: 1 }}
     >
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-    <ScrollView contentContainerStyle={{ padding: 16 }}>
-    <View style={styles.container}>
-      <Text style={styles.titulo}>📄 Facturas Registradas</Text>
+    {/*<ScrollView contentContainerStyle={{ padding: 16 }}>*/}
+    {/*<View style={styles.container} >*/}
+      
       <FlatList
+        contentContainerStyle={styles.container}
         data={facturas}
         keyExtractor={(item, index) => index.toString()}
         renderItem={renderItem}
         ListEmptyComponent={<Text>No hay facturas registradas aún.</Text>}
-      />
-
-       <Modal transparent visible={modalVisible} animationType="slide">
-        <View style={{ flex: 1, justifyContent: 'center', backgroundColor: '#000000aa' }}>
-          <View style={{ backgroundColor: 'white', margin: 32, padding: 20, borderRadius: 8 }}>
-            <Text style={{ fontSize: 16, marginBottom: 20 }}>
-              ¿Estás seguro de que deseas eliminar esta factura?
-            </Text>
-            <View style={{ flexDirection: 'row', justifyContent: 'flex-end', gap: 16 }}>
-              <Button title="Cancelar" onPress={() => setModalVisible(false)} />
-              <Button title="Eliminar" color="red" onPress={eliminarFactura} />
+        ListFooterComponent={
+          <Modal transparent visible={modalVisible} animationType="slide">
+            <View style={{ flex: 1, justifyContent: 'center', backgroundColor: '#000000aa' }}>
+              <View style={{ backgroundColor: 'white', margin: 32, padding: 20, borderRadius: 8 }}>
+                <Text style={{ fontSize: 16, marginBottom: 20 }}>
+                  ¿Estás seguro de que deseas eliminar esta factura?
+                </Text>
+                <View style={{ flexDirection: 'row', justifyContent: 'flex-end', gap: 16 }}>
+                  <Button title="Cancelar" onPress={() => setModalVisible(false)} />
+                  <Button title="Eliminar" color="red" onPress={eliminarFactura} />
+                </View>
+              </View>
             </View>
-          </View>
-        </View>
-      </Modal>
-    </View>
-    </ScrollView>
+          </Modal>
+        }
+      />
+   {/*</View>*/} 
+    {/*</ScrollView>*/}
     </TouchableWithoutFeedback>
     </KeyboardAvoidingView>
   );
