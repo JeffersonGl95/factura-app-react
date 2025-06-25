@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\facturaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:facturaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\repositories\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:repositories\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\repositories\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:repositories\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\data\\facturadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:data\\facturadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\facturaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:facturaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|c:\\users\\j3ffl\\documents\\factura-app-mobile\\facturaapi\\migrations\\20250625135835_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24D5E71-24C1-4B29-B29D-A5751CAB44BA}|FacturaApi.csproj|solutionrelative:migrations\\20250625135835_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 441,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T13:51:55.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "Controllers\\FacturaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:50:06.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Services\\FacturaService.cs",
+              "RelativeDocumentMoniker": "Services\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Services\\FacturaService.cs",
+              "RelativeToolTip": "Services\\FacturaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:48:50.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Repositories\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Repositories\\FacturaRepository.cs",
+              "RelativeToolTip": "Repositories\\FacturaRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:46:36.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Repositories\\IFacturaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IFacturaRepository.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Repositories\\IFacturaRepository.cs",
+              "RelativeToolTip": "Repositories\\IFacturaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:45:46.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FacturaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Data\\FacturaDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\FacturaDbContext.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Data\\FacturaDbContext.cs",
+              "RelativeToolTip": "Data\\FacturaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:41:14.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwDYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:35:01.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T14:21:14.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Models\\Factura.cs",
+              "RelativeToolTip": "Models\\Factura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:38:56.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250625135835_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Migrations\\20250625135835_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250625135835_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\Migrations\\20250625135835_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250625135835_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:58:35.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaApi.http",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\FacturaApi.http",
+              "RelativeDocumentMoniker": "FacturaApi.http",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\FacturaApi.http",
+              "RelativeToolTip": "FacturaApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-25T14:07:59.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FacturaApi.csproj",
+              "DocumentMoniker": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\FacturaApi.csproj",
+              "RelativeDocumentMoniker": "FacturaApi.csproj",
+              "ToolTip": "C:\\Users\\j3ffl\\Documents\\factura-app-mobile\\FacturaApi\\FacturaApi.csproj",
+              "RelativeToolTip": "FacturaApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T13:36:34.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
