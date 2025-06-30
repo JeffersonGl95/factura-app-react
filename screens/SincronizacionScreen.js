@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { ActivityIndicator, Alert, Button, Text, View } from 'react-native';
+import { sincronizarFacturas } from '../services/facturaService';
 import { marcarFacturasComoSincronizadas, obtenerFacturasLocales } from '../storage/facturaStorage';
+
 
 export default function SincronizacionScreen() {
   const [cargando, setCargando] = useState(false);
@@ -20,14 +22,9 @@ export default function SincronizacionScreen() {
         return;
       }
 
-      const respuesta = await fetch('http://192.168.10.37:7112/api/Factura', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(noSincronizadas),
-      });
+      const respuesta = await sincronizarFacturas(noSincronizadas);
 
-      console.log(respuesta)
-
+   
       if (!respuesta.ok) throw new Error('Error al sincronizar');
 
       // Si fue exitosa, marcar como sincronizadas
