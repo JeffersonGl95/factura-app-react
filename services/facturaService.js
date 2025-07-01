@@ -5,10 +5,12 @@
 
 export const sincronizarFacturas = async (facturas) => {
 
-const response  = await fetch('http://192.168.10.37:7112/api/Factura', {
+const facturasSync = facturas.map(({id, ...resto})=> resto)
+
+const response  = await fetch('http://192.168.10.37:5022/api/Factura', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(facturas),
+        body: JSON.stringify(facturasSync),
       });
 
 
