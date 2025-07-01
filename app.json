@@ -8,6 +8,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "facturaappmobile",
     "userInterfaceStyle": "automatic",
+    "jsEngine": "jsc",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -36,9 +37,6 @@
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true
-    },
     "extra": {
       "router": {},
       "eas": {
